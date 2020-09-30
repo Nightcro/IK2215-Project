@@ -1,0 +1,25 @@
+$TTL	604800
+@	IN	SOA	ns.isp106.lab. root.isp106.lab. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@		IN	NS	ns.isp106.lab.
+
+1.1 IN PTR as106r3e0.isp106.lab.
+2.1 IN PTR ns.isp106.lab.
+3.1 IN PTR www.isp106.lab.
+4.1 IN PTR dhcpd.isp106.lab.
+13.0 IN PTR as106r1e1
+9.0 IN PTR as106r1e2
+25.0 IN PTR as106r1e3
+22.0 IN PTR as106r2e1
+10.0 IN PTR as106r2e2
+21.0 IN PTR as106r3e1
+18.0 IN PTR as106r3e2
+26.0 IN PTR as106r3e3
+1.0 IN PTR as106r4e0
+15.0 IN PTR as106r4e1
+17.0 IN PTR as106r4e2
