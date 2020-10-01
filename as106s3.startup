@@ -1,4 +1,3 @@
 ip addr add 1.106.1.4/29 broadcast 1.106.1.7 dev eth0
 ip route add default via 1.106.1.1
-/etc/init.d/bind start
 /etc/init.d/isc-dhcp-server start
