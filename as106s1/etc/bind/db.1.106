@@ -27,3 +27,4 @@ $TTL	604800
 29.0 IN PTR as106r2d0.isp106.lab.
 30.0 IN PTR as106r3d0.isp106.lab.
 31.0 IN PTR as106r4d0.isp106.lab.
+$GENERATE 2-6 $.0  PTR  as106client$.isp106.lab.
